@@ -9,7 +9,6 @@ interface UserMenuButtonProps {
 }
 
 export function UserMenuButton({ session }: UserMenuButtonProps) {
-  console.log("session", session);
   const user = session?.user;
   return (
     <div className="dropdown dropdown-end">
